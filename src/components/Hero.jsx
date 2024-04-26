@@ -1,17 +1,46 @@
 import "../components/Hero.css";
-// import imageshoping from "../assets/heroshopping.webp ";
-import logo from "../assets/ilyessexpress.webp";
-import p from "../assets/heroshopping.webp";
+import imageshoping from "../assets/heroshopping.webp";
 
 const Hero = () => {
   return (
-    <div>
-      <h1>
-        Discover the Style <br></br> That Suits You <br></br>with IlyesExpress
-      </h1>
-      <img className="logo" src={logo} alt="Description of the logo" />
-      <img src={p} alt="ddf" />
-      {/* <img src={imageshoping} alt="imageheroshoping" /> */}
+    <div className="hero">
+      <div className="hero-container">
+        <div className="info-hero">
+          <h1>
+            Discover the Style <br></br> That Suits You <br></br>with
+            IlyesExpress
+          </h1>
+          <p>
+            Welcome to ilyesexpress our dedicated team is here to help you find{" "}
+            <br></br> the clothes that reflect your individuality.
+          </p>
+          <div className="buttons-container">
+            <button className="b">Get on Webflow</button>
+            <button className="c">Other templates</button>
+          </div>
+          <div className="line-container">
+            <div className="line-un"></div>
+            <div className="line-deux"></div>
+          </div>
+          <div className="revenue-Increase">
+            <div className="revenue">
+              <h4>+150,000</h4>
+              <div className="revenue-one-year">Total revenue in 1 year</div>
+            </div>
+            <div className="Increase ">
+              <h4>200%</h4>
+              <div className="Increase-one-year">Increase in sales</div>
+            </div>
+          </div>
+        </div>
+        <div className="imghero">
+          <img
+            className="imagehero"
+            src={imageshoping}
+            alt="imageheroshoping"
+          />
+        </div>
+      </div>
     </div>
   );
 };

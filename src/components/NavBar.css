@@ -31,7 +31,7 @@ nav {
   
   .navbar-buttons button {
     background-color: #2176e9;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     border: none;
     padding: 12px 20px;
     cursor: pointer;
