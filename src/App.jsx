@@ -1,11 +1,11 @@
-import Navbar from "../src/components/NavBar";
-
-
+import NavBar from "../src/components/NavBar";
+import Hero from "../src/components/Hero";
 const App = () => {
   return (
     <>
       <div>
-        <Navbar></Navbar>
+        <NavBar></NavBar>
+        <Hero></Hero>
       </div>
     </>
   );

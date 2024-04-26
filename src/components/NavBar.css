@@ -1,54 +1,89 @@
 /* Navbar.css */
 
 nav {
-  background-color: #fff;
-  color: #011f53;
-  padding-top: 25px;
-  padding-left: 20px;
-}
-ul {
-  padding-top: 22px;
-  padding-left: 22px;
-}
-nav ul li Link {
-  color: #011f53;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline;
-  margin-right: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  background-color: #2176e9;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-}
-.logo {
-  width: 100px;
-}
-
-.info {
-  display: flex;
-}
-/*
-.navbar-buttons {
-  display: flex;
-  align-items: center;
-}*/
+    background-color: #fff;
+    color: #011f53;
+    padding-top: 25px;
+    padding-left: 20px;
+  }
+  ul {
+    padding-top: 22px;
+    padding-left: 22px;
+  }
+  nav ul li Link,
+  .navbar-buttons span {
+    color: #011f53;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .navbar-buttons button {
+    background-color: #2176e9;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .logo {
+    width: 100px;
+  }
+  
+  .info {
+    display: flex;
+  }
+  
+  .navbar-buttons {
+    /* gap: 8px; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-buttons span {
+    position: relative;
+    top: 5px;
+  }
+  
+  .icon-container {
+    background-color: #f0f2f6;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 8px 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+  }
+  .icons-shopping-cart {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 4px;
+  }
+  
