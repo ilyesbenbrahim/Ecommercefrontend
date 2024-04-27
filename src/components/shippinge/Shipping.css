@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+.shipping{
+    background-color:#f0f2f6;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center; 
+    margin-top:100px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.shipping-container {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Feature h2
+{
+    color: #011f53;
+    font-size: 48px;
+    margin-block-start: 0px;
+}
+.three-Feature{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+.icone-quality{
+    width: 27px;
+    height: 27px;
+}
+.icon-price{
+    width: 27px;
+    height: 27px;
+}
+.icone-delivery{
+    width: 27px;
+    height: 27px;  
+}
+
+.shipping-icons-container {
+    background-color:#fff;
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.color{
+    color: #011f53;
+    font-size: 16px;
+}
+.item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
