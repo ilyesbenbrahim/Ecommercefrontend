@@ -1,0 +1,44 @@
+.topbar {
+  background-color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.topbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+.contact-one {
+  display: flex;
+  align-items: center;
+}
+.contact-two {
+  display: flex;
+
+  align-items: center;
+  margin-left: 12px;
+}
+.langSelect {
+  width: 100px;
+  height: 25px;
+  margin-left: 30px;
+}
+.topbar .icon {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.topbar .icon:nth-child(1) {
+    margin-left: 0px;
+}
+
+  /* .line-topbar-navbar {
+    border-top: 1px solid #e5c7ca;
+    width: 200px;
+  } */

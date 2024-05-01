@@ -1,0 +1,41 @@
+.promotionalbanner{
+    margin-top: 90px;
+}
+.imgewome {
+  width: 500px;
+  height: 550px;
+}
+
+.info-promotionalbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-promotionalbanner h1 {
+  color: #011f53;
+  font-size: 40px;
+  margin-left: 60px;
+  /* margin-right: 40px; */
+  /* margin-block-end: 0px; */
+  margin-bottom: 17px;
+}
+.info-promotionalbanner p {
+  color: rgba(2, 38, 99, 0.8);
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+.promotionalbanner-container{
+    display: flex;
+}
+.promotionalbanner{
+
+   width: 100%; 
+   max-width: 1400px; 
+}
+.promotionalbanner-container .imgwomen{
+    margin-left: 60px;
+
+
+}

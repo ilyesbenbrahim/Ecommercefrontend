@@ -11,13 +11,13 @@ const NavBar = () => {
           <nav>
             <ul>
               <li>
-                <Link to="/">Landing</Link>
+                <Link to="/">About Us</Link>
               </li>
               <li>
-                <Link to="/aboOther pages">Other pages</Link>
+                <Link to="/Advantages">Advantages</Link>
               </li>
               <li>
-                <Link to="/Templatet">Templatet</Link>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -31,7 +31,7 @@ const NavBar = () => {
             <MdShoppingCart className="icons-shopping-cart" />
           </div>
 
-          <button> Purchase template </button>
+          <button> Product </button>
         </div>
       </div>
     </div>

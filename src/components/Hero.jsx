@@ -15,8 +15,8 @@ const Hero = () => {
             <br></br> the clothes that reflect your individuality.
           </p>
           <div className="buttons-container">
-            <button className="b">Get on Webflow</button>
-            <button className="c">Other templates</button>
+            <button className="b">More Product</button>
+            <button className="c">Create An Account</button>
           </div>
           <div className="line-container">
             <div className="line-un"></div>

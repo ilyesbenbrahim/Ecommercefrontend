@@ -13,7 +13,7 @@ const Shipping = () => {
         <div className="three-Feature">
           <div className="item-container">
             <div className="shipping-icons-container">
-              <MdOutlineHighQuality className="icone-quality" />
+              <MdOutlineHighQuality className="icone-quality" color="#011f53" />
             </div>
             <h5 className="color">Good Quality</h5>
             <div className="Lorem-one">
@@ -23,7 +23,7 @@ const Shipping = () => {
           </div>
           <div className="item-container">
             <div className="shipping-icons-container">
-              <MdOutlinePriceCheck className="icon-price" />
+              <MdOutlinePriceCheck className="icon-price" color="green" />
             </div>
             <h5 className="color">Good Price</h5>
             <div className="Lorem-tow">
@@ -33,7 +33,7 @@ const Shipping = () => {
           </div>
           <div className="item-container">
             <div className="shipping-icons-container">
-              <TbTruckDelivery className="icone-delivery" />
+              <TbTruckDelivery className="icone-delivery" color="orangered" />
             </div>
             <h5 className="color"> Home Delivery</h5>
             <div className="Lorem-three">

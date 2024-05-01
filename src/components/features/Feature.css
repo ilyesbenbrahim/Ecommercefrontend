@@ -1,0 +1,21 @@
+.logofeature {
+  width: 100px;
+  margin-right: 60px;
+}
+.feature-highlight {
+    margin-top: 50px;
+
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+}
+.feature-highlight h3 {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.feature-highlight p {
+  font-size: 1em;
+  color: #fff;
+}
