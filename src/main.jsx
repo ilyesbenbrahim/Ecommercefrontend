@@ -9,6 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Contact from './Pages/contact/Contact.jsx'
+import Product from './Pages/product/Product.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,10 +26,11 @@ const router = createBrowserRouter([
 {
 path:"/contact",
 element:<Contact></Contact>
+},
+{
+path:"/product",
+element:<Product></Product>
 }
-
-
-
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

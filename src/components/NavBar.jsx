@@ -25,7 +25,7 @@ const NavBar = () => {
 
         <div className="navbar-buttons">
           <span>
-            <Link to="/Sing up">Sing up</Link>
+            <Link to="/signUp">Sing up</Link>
           </span>
           <div className="icon-container">
             <MdShoppingCart className="icons-shopping-cart" />
