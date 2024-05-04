@@ -11,6 +11,8 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import axios from 'axios';
+import { useState } from 'react';
 
 function Copyright(props) {
   return (
@@ -25,18 +27,27 @@ function Copyright(props) {
   );
 }
 
-// TODO remove, this demo shouldn't need to reset the theme.
-
 const defaultTheme = createTheme();
 
 export default function SignIn() {
-  const handleSubmit = (event) => {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+    try {
+      const config = {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      };
+      const body = JSON.stringify({ email, password });
+      const response = await axios.post('http://localhost:5000/api/auth/login', body, config);
+      alert('User logged in:', response.data);
+      // Here you might want to handle a successful login, e.g., saving the token and redirecting the user
+    } catch (error) {
+      alert('Error logging in:', error.response ? error.response.data : error.message);
+    }
   };
 
   return (
@@ -67,6 +78,8 @@ export default function SignIn() {
               name="email"
               autoComplete="email"
               autoFocus
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
             <TextField
               margin="normal"
@@ -77,6 +90,8 @@ export default function SignIn() {
               type="password"
               id="password"
               autoComplete="current-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
             <FormControlLabel
               control={<Checkbox value="remember" color="primary" />}
