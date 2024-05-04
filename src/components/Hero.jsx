@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../components/Hero.css";
 import imageshoping from "../assets/heroshopping.webp";
 
@@ -16,7 +17,9 @@ const Hero = () => {
           </p>
           <div className="buttons-container">
             <button className="b">More Product</button>
-            <button className="c">Create An Account</button>
+            <Link to="singin">
+              <button className="c">Sign In</button>
+            </Link>
           </div>
           <div className="line-container">
             <div className="line-un"></div>
