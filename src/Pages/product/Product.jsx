@@ -11,10 +11,6 @@ import imagecinq from "../../assets/imagecinq.jpg";
 import imagesix from "../../assets/imagesix.jpg";
 import imagesept from "../../assets/imgesept.jpg";
 import imagehuit from "../../assets/imgehuit.jpg";
-.0
-
-
-
 
 const Product = () => {
   return (
