@@ -11,8 +11,11 @@ import imagecinq from "../../assets/imagecinq.jpg";
 import imagesix from "../../assets/imagesix.jpg";
 import imagesept from "../../assets/imgesept.jpg";
 import imagehuit from "../../assets/imgehuit.jpg";
+// import axios from 'axios'
 
+import { useEffect } from "react";
 const Product = () => {
+  useEffect(() => {}, []);
   return (
     <>
       <div>
@@ -25,21 +28,19 @@ const Product = () => {
         />
         <h1>display: grid</h1>
 
-<p>Use display: grid; to make a block-level grid container:</p>
+        <p>Use display: grid; to make a block-level grid container:</p>
 
-<div className="grid-container">
-<img className="grid-item" src={tttt}/>
- <img className="grid-item" src={imageun}/>
- <img className="grid-item" src={imagedeux}/>
- <img className="grid-item" src={imagetatrios}/>
- <img className="grid-item" src={imagequatre}/>
- <img className="grid-item" src={imagecinq}/>
- <img className="grid-item" src={imagesix}/>
- <img className="grid-item" src={imagesept}/>
- <img className="grid-item" src={imagehuit}/>
-
-
-</div>
+        <div className="grid-container">
+          <img className="grid-item" src={tttt} />
+          <img className="grid-item" src={imageun} />
+          <img className="grid-item" src={imagedeux} />
+          <img className="grid-item" src={imagetatrios} />
+          <img className="grid-item" src={imagequatre} />
+          <img className="grid-item" src={imagecinq} />
+          <img className="grid-item" src={imagesix} />
+          <img className="grid-item" src={imagesept} />
+          <img className="grid-item" src={imagehuit} />
+        </div>
       </div>
     </>
   );

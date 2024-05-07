@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Signine from "../src/Pages/signin/Signine.jsx"
 import SignUpe from "../src/Pages/SignUp/SignUpe.jsx"
+import Ajouterproduit from "../src/Pages/product/Ajouterproduit.jsx"
 import {
   createBrowserRouter,
   RouterProvider,
@@ -30,7 +31,12 @@ element:<Contact></Contact>
 {
 path:"/product",
 element:<Product></Product>
-}
+},
+{
+  path:"/ajouterproduit",
+  element:<Ajouterproduit></Ajouterproduit>
+  },
+
 
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(

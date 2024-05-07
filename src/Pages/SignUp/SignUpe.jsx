@@ -13,7 +13,6 @@ import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import axios from 'axios';
 import { useState } from 'react';
-
 function Copyright(props) {
   return (
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
@@ -27,11 +26,12 @@ function Copyright(props) {
   );
 }
 
+
 const defaultTheme = createTheme();
 
 export default function SignUp() {
   const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
+  const [lastName, setLastName] = useState(''); 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -91,7 +91,7 @@ export default function SignUp() {
                   id="lastName"
                   label="Last Name"
                   name="lastName"
-                  autoComplete="family-name"
+                  autoComplete="familygo-name"
                   value={lastName}
                   onChange={(e) => setLastName(e.target.value)}
                 />
