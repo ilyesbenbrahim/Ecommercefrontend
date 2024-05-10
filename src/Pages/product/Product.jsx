@@ -1,29 +1,24 @@
 import NavBar from "../../components/NavBar";
 import Topbar from "../../components/topbare/Topbar";
 import "./Product.css";
-import imageproduct from "../../assets/imgnike.jpg";
-// import tttt from "../../assets/imgproduct.jpg";
-// import imageun from "../../assets/imageun.jpg";
-// import imagedeux from "../../assets/imdedeux.jpg";
-// import imagetatrios from "../../assets/imget.jpg";
-// import imagequatre from "../../assets/imgequatre.jpg";
-// import imagecinq from "../../assets/imagecinq.jpg";
-// import imagesix from "../../assets/imagesix.jpg";
-// import imagesept from "../../assets/imgesept.jpg";
-// import imagehuit from "../../assets/imgehuit.jpg";
-// import axios from 'axios'
-
+import imageproduct from "../../assets/vetements-pour-enfants.png";
+import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
-import axios from "axios";
+
+
 const Product = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:5000/api/products").then((res) => {
-      setProducts(res.data);
-    }).catch((err)=>console.log(err))
+    axios
+      .get("http://localhost:5000/api/products")
+      .then((res) => {
+        setProducts(res.data);
+      })
+      .catch((err) => console.log(err));
   }, []);
-  console.log(products)
+  console.log(products);
+
   return (
     <>
       <div>
@@ -36,22 +31,18 @@ const Product = () => {
         />
         <h1>display: grid</h1>
         <p>Use display: grid; to make a block-level grid container:</p>
-
         <div className="grid-container">
-          {products.map((product)=>(
-          <>
-          {/* <img className="grid-item" src={tttt} /> */}
-          <h1>{product.title}</h1>
-          <img
-                src={product.image}
-    
-              />
-          <p>{product.prixduproduit}</p>
-          <p>{product.quantitedisponible}</p>
-          
-          </>
+          {products.map((product) => (
+            <div className="grid-item" key={product.id}>
+              <img style={{ height: 450, width: 400 }} src={product.image} />
+              <h1 style={{ fontSize: "20px" }}>{product.title}</h1>
+
+              <p style={{ fontSize: "20px" }}> Price :{product.prixduproduit} DA</p>
+              <p style={{ fontSize: "20px" }}>
+                Available Quantity : {product.quantitedisponible}
+              </p>
+            </div>
           ))}
-          
         </div>
       </div>
     </>

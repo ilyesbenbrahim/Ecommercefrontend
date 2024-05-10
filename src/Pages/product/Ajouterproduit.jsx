@@ -37,25 +37,27 @@ const AjouterUnProduit = () => {
   };
 
   return (
-    <div className="container"> 
-      <h1>Ajouter un produit</h1>
-      <form onSubmit={handleSubmit} encType="multipart/form-data">
-        <label htmlFor="title">Titre du produit :</label><br />
-        <input type="text" id="title" name="title" value={title} onChange={(e) => settitle(e.target.value)} required /><br /><br />
-        
-        <label htmlFor="prixduproduit">Prix du produit :</label><br />
-        <input type="number" id="prixduproduit" name="prixduproduit" min="0" step="0.01" value={prixduproduit} onChange={(e) => setprixduproduit(e.target.value)} required /><br /><br />
-        
-        <label htmlFor="quantitedisponible">Quantité disponible :</label><br />
-        <input type="number" id="quantitedisponible" name="quantitedisponible" min="0" value={quantitedisponible} onChange={(e) => setquantitedisponible(e.target.value)} required /><br /><br />
-        
-        <label htmlFor="image">Image du produit :</label><br />
-        <input type="file" id="image" name="image" accept="image/*" onChange={handleImageChange} /><br /><br />
-        
-        <input type="submit" value="Ajouter le produit" />
-      </form>
-    </div>
+    <div className="container">
+    <h1>Add a product</h1>
+    <form onSubmit={handleSubmit} encType="multipart/form-data">
+      <label htmlFor="title">Product Title:</label><br />
+      <input type="text" id="title" name="title" value={title} onChange={(e) => settitle(e.target.value)} required /><br /><br />
+
+      <label htmlFor="prixduproduit">Product Price:</label><br />
+      <input type="number" id="prixduproduit" name="prixduproduit" min="0" step="0.01" value={prixduproduit} onChange={(e) => setprixduproduit(e.target.value)} required /><br /><br />
+
+      <label htmlFor="quantitedisponible">Available Quantity:</label><br />
+      <input type="number" id="quantitedisponible" name="quantitedisponible" min="0" value={quantitedisponible} onChange={(e) => setquantitedisponible(e.target.value)} required /><br /><br />
+
+      <label htmlFor="image">Product Image:</label><br />
+      <input type="file" id="image" name="image" onChange={handleImageChange} />
+      <br /><br />
+      <input type="submit" value="Add Product" />
+    </form>
+  </div>
   );
 };
 
 export default AjouterUnProduit;
+
+
