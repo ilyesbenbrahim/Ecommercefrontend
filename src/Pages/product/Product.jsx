@@ -40,14 +40,15 @@ const Product = () => {
         <div className="grid-container">
           {products.map((product)=>(
           <>
-          {/* <img className="grid-item" src={tttt} /> */}
-          <h1>{product.title}</h1>
-          <img
-                src={product.image}
-    
-              />
+          <p>{product.title}</p>
           <p>{product.prixduproduit}</p>
           <p>{product.quantitedisponible}</p>
+          <img
+                src={product.image}
+                height={200}
+                width={200}
+              />
+
           
           </>
           ))}
