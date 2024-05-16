@@ -7,6 +7,7 @@ import SignUpe from "../src/Pages/SignUp/SignUpe.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Contact from "./Pages/contact/Contact.jsx";
 import Product from "./Pages/product/Product.jsx";
+import ProductClient from "./Pages/productClient/Product.jsx";
 import Ajouterproduit from "./Pages/product/Ajouterproduit";
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "/product",
     element: <Product></Product>,
+  },
+  {
+    path: "/productClient",
+    element: <ProductClient></ProductClient>,
   },
   {
     path: "/ajouterproduit",
