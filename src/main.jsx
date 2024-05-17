@@ -9,6 +9,9 @@ import Contact from "./Pages/contact/Contact.jsx";
 import Product from "./Pages/product/Product.jsx";
 import ProductClient from "./Pages/productClient/Product.jsx";
 import Ajouterproduit from "./Pages/product/Ajouterproduit";
+import ModifierUnProduit from "./Pages/product/ModifierProduit.jsx";
+
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -37,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/ajouterproduit",
     element: <Ajouterproduit></Ajouterproduit>,
+  },
+  {
+    path: "/modifierproduit",
+    element: <ModifierUnProduit></ModifierUnProduit>,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
