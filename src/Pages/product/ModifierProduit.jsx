@@ -13,7 +13,7 @@ const UpdateProduit = () => {
 
   useEffect(() => {
     // Fetch the current product details
-    axios.get(`http://localhost:5000/api/products/${'66468390d4b832b9e2bc7466'}`)
+    axios.get(`http://localhost:5000/api/products/${id}`)
       .then((res) => {
         const product = res.data;
         setTitle(product.title);
@@ -56,7 +56,7 @@ const UpdateProduit = () => {
 
     try {
       // Step 2: Update the product
-      await axios.put(`http://localhost:5000/api/products/${'66468390d4b832b9e2bc7466'}`, updatedProduct);
+      await axios.put(`http://localhost:5000/api/products/${id}`, updatedProduct);
       alert('Product updated successfully!');
     } catch (error) {
       console.error('Error updating product:', error);

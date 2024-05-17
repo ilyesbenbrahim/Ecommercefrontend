@@ -3,6 +3,7 @@ import Topbar from "../../components/topbare/Topbar";
 import "./Product.css";
 import imageproduct from "../../assets/imgnike.jpg";
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 import axios from "axios";
 
 const Product = () => {
@@ -59,8 +60,10 @@ const Product = () => {
               width={200}
             />
         <button onClick={()=>deleteProduct(product._id)}>delete</button>
-
         
+        <Link to={`/modifierproduit/${product._id}`}>
+        <button>modifier</button>
+        </Link>
         </>
         ))}
         

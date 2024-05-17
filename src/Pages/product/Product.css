@@ -4,8 +4,9 @@
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     grid-row-gap: 20px;
+    grid-column-gap: 10px;
     background-color: #2196F3;
     padding: 110px;
     align-items: center;
