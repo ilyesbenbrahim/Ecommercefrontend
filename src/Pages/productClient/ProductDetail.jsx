@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-
-
-
 const ProductDetail = () => {
     const { id } = useParams();
 
@@ -15,7 +12,7 @@ const ProductDetail = () => {
             .then(response => response.json())
             .then(data => {
                 // Handle the fetched data here
-                console.log(data);
+                // console.log(data);
                 setTitle(data.title);
                 setImage(data.image);
                 setQuantiteDisponible(data.quantitedisponible);
@@ -23,6 +20,7 @@ const ProductDetail = () => {
             })
             .catch(error => {
                 // Handle any errors here
+                console.log(error);
             });
     }, [id]);
     return (
