@@ -36,13 +36,15 @@ const Product = () => {
 
         <div className="grid-container-client">
           {products.map((product) => (
-            <div key={product.id}>
-              <img
-                src={product.image}
-                alt={product.title}
-                height={200}
-                width={200}
-              />
+            <div key={product._id}>
+              <a href={`/product/${product._id}`}>
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  height={200}
+                  width={200}
+                />
+              </a>
               <p>{product.title}</p>
               <p>{product.prixduproduit} : DA</p>
               <p>Quantity available : {product.quantitedisponible}</p>
