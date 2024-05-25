@@ -4,6 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Topbar = () => {
   return (
@@ -17,9 +18,17 @@ const Topbar = () => {
           <div className="mail-address">benbrahim1.ilyes@gmail.com</div>
         </div>
         <div className="contact-two">
-          <FaFacebookF className="icon" color="blue"  />
+        <Link to="https://www.facebook.com/profile.php?id=61560006480207" target="_blank" rel="noopener noreferrer">
+            <FaFacebookF className="icon" color="blue" />
+          </Link>
+          <Link to="https://www.instagram.com/ilyesexpress5/" target="_blank" rel="noopener noreferrer">
           <FaInstagramSquare className="icon" color="red"  />
+          </Link>
+          <Link to="https://www.linkedin.com/in/benbrahim-ilyes-6b187630b/" target="_blank" rel="noopener noreferrer">
+
           <FaLinkedin className="icon" color="blue" />
+          </Link>
+
 
           <select className="langSelect">
             <option value="English">En</option>

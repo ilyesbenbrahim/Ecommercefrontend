@@ -12,7 +12,7 @@ const Product = () => {
   useEffect(() => {
     fetchProducts();
     console.log(products)
-  }, []);
+  }, [products]);
 
   const fetchProducts = () => {
     axios.get("http://localhost:5000/api/products")
@@ -45,8 +45,8 @@ const Product = () => {
         src={imageproduct}
         alt="Description of the logo"
       />
-      <h1>display: grid</h1>
-      <p>Use display: grid; to make a block-level grid container:</p>
+      <h1>Discover our clothing collection</h1>
+      <p>Find Quality clothing for children, men and women. Our collection is suitable for all styles and occasions.</p>
 
       <div className="grid-container">
         {products.map((product)=>(

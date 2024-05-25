@@ -16,7 +16,7 @@ const Hero = () => {
             <br></br> the clothes that reflect your individuality.
           </p>
           <div className="buttons-container">
-            <Link to="product" >
+            <Link to="productClient" >
             <button className="b">More Product</button>
             </Link>
             <Link to="singin">

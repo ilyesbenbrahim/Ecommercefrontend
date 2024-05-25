@@ -34,11 +34,13 @@
   margin-right: 12px;
 }
 
+.icon:hover {
+  transform: rotate(360deg);
+  transition: transform 0.5s;
+}
+
+
+
 .topbar .icon:nth-child(1) {
     margin-left: 0px;
 }
-
-  /* .line-topbar-navbar {
-    border-top: 1px solid #e5c7ca;
-    width: 200px;
-  } */

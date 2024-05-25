@@ -1,6 +1,9 @@
 .logofeature {
-  width: 100px;
+  width: 120px;
   margin-right: 60px;
+  position: relative;
+  height: 60px;
+  top: 29px; 
 }
 .feature-highlight {
     margin-top: 50px;
