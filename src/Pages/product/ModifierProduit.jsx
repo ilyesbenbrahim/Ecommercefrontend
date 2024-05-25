@@ -10,6 +10,8 @@ const UpdateProduit = () => {
   const [quantitedisponible, setQuantiteDisponible] = useState('');
   const [image, setImage] = useState(null);
   const [imageUrl, setImageUrl] = useState('');
+  const [description, setDescription] = useState('');
+const [nbrProductSelled, setNbrProductSelled] = useState(0);
 
   useEffect(() => {
     // Fetch the current product details
@@ -20,6 +22,8 @@ const UpdateProduit = () => {
         setPrixDuProduit(product.prixduproduit);
         setQuantiteDisponible(product.quantitedisponible);
         setImageUrl(product.image);  // Set the existing image URL
+        setDescription(product.description);
+        setNbrProductSelled(product.nbrProductSelled);
       })
       .catch((err) => console.error('Error fetching product details:', err));
   }, [id]);
@@ -30,7 +34,9 @@ const UpdateProduit = () => {
     let updatedProduct = {
       title,
       prixduproduit,
-      quantitedisponible
+      quantitedisponible,
+      description,
+      nbrProductSelled
     };
 
     if (image) {
@@ -81,6 +87,11 @@ const UpdateProduit = () => {
         <label htmlFor="quantitedisponible">Quantity Available:</label><br />
         <input type="number" id="quantitedisponible" name="quantitedisponible" min="0" value={quantitedisponible} onChange={(e) => setQuantiteDisponible(e.target.value)} required /><br /><br />
 
+        <label htmlFor="description">Product Description:</label><br />
+        <textarea id="description" name="description" value={description} onChange={(e) => setDescription(e.target.value)} required /><br /><br />
+
+        <label htmlFor="nbrProductSelled">Number of Products Sold:</label><br />
+        <input type="number" id="nbrProductSelled" name="nbrProductSelled" min="0" value={nbrProductSelled} onChange={(e) => setNbrProductSelled(e.target.value)} required /><br /><br />
         <label htmlFor="image">Product Image:</label><br />
         <input type="file" id="image" name="image" accept="image/*" onChange={handleImageChange} /><br /><br />
         {imageUrl && <img src={imageUrl} alt="Current product" height={100} />}<br /><br />

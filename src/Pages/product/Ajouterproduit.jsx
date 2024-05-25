@@ -1,3 +1,5 @@
+
+
 import './Ajouterproduit.css';
 import { useState } from 'react';
 import axios from 'axios';
@@ -7,6 +9,8 @@ const AjouterUnProduit = () => {
   const [prixduproduit, setPrixDuProduit] = useState('');
   const [quantitedisponible, setQuantiteDisponible] = useState('');
   const [image, setImage] = useState(null);
+  const [description, setDescription] = useState('');
+  const [nbrProductSelled, setNbrProductSelled] = useState(0);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -32,7 +36,9 @@ const AjouterUnProduit = () => {
         title,
         prixduproduit,
         quantitedisponible,
-        image: uploadResponse.data.url  // Assuming the server returns the URL in this format
+        image: uploadResponse.data.url,
+        description,
+        nbrProductSelled
       };
 
       await axios.post('http://localhost:5000/api/products', newProduct);
@@ -69,7 +75,11 @@ const AjouterUnProduit = () => {
         
         <label htmlFor="image">Image du produit :</label><br />
         <input type="file" id="image" name="image" accept="image/*" onChange={handleImageChange} /><br /><br />
-        
+        <label htmlFor="description">Description :</label><br />
+        <textarea id="description" name="description" value={description} onChange={(e) => setDescription(e.target.value)} required></textarea><br /><br />
+
+        <label htmlFor="nbrProductSelled">Nombre de produits vendus :</label><br />
+        <input type="number" id="nbrProductSelled" name="nbrProductSelled" min="0" value={nbrProductSelled} onChange={(e) => setNbrProductSelled(e.target.value)} required /><br /><br />
         <input type="submit" value="Ajouter le produit" />
       </form>
     </div>
