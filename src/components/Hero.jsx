@@ -12,7 +12,7 @@ const Hero = () => {
             IlyesExpress
           </h1>
           <p>
-            Welcome to ilyesexpress our dedicated team is here to help you find{" "}
+            Welcome to ilyesexpress our dedicated team is here to help you find
             <br></br> the clothes that reflect your individuality.
           </p>
           <div className="buttons-container">

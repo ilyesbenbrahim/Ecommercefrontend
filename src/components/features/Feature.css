@@ -7,7 +7,6 @@
 }
 .feature-highlight {
     margin-top: 50px;
-
   background-color: #000000;
   padding: 20px;
   display: flex;
@@ -17,8 +16,23 @@
   color: #fff;
   margin-bottom: 0px;
 }
-
 .feature-highlight p {
   font-size: 1em;
   color: #fff;
+  margin-right: 60px;
 }
+.about{
+  margin-right: 100px;
+}
+.about h3 {
+  color: #fff;
+ height: 8px;
+}
+.help h3{
+  color: #fff;
+ height: 8px;
+}
+.reserved h6{
+  color: #fff;
+}
+

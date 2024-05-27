@@ -1,0 +1,86 @@
+
+.mode_paiemant {
+  background-color: #251e36; /* Couleur plus douce */
+  color: #fff; /* Texte blanc pour un meilleur contraste */
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Centrer le texte */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajout d'une ombre pour la profondeur */
+}
+
+.mode_paiemant h2 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: 700; /* Texte en gras pour plus de lisibilité */
+}
+
+/* Amélioration de la section accueil paiement */
+.accueil_paiement {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px; /* Taille de police plus grande pour une meilleure lisibilité */
+  color: #555; /* Couleur du texte plus douce */
+}
+
+.accueil_paiement span {
+  font-size: larger;
+}
+
+/* Ligne de séparation améliorée */
+.Ligne_droite_centre {
+  border-top: 2px solid #c7d9e5; /* Épaisseur de la ligne augmentée */
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Amélioration de la section image */
+.img_paiement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; /* Ajout d'espace autour de l'image */
+}
+
+.image_paiment {
+  width: 80%; /* Utilisation d'un pourcentage pour plus de réactivité */
+  max-width: 600px; /* Limite la largeur de l'image */
+  height: auto; /* Maintient le ratio d'aspect de l'image */
+  border-radius: 10px; /* Coins arrondis pour une apparence plus douce */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajout d'une ombre */
+  transition: transform 0.3s ease; /* Transition douce pour l'effet au survol */
+}
+
+.image_paiment:hover {
+  transform: scale(1.05); /* Zoom léger au survol */
+}
+
+/* Amélioration du texte explicatif */
+.paragraph-container {
+  margin: 20px; /* Espacement autour du conteneur de paragraphe */
+  padding: 20px; /* Espacement intérieur */
+  background-color: #f9f9f9; /* Couleur de fond douce */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ajout d'une ombre */
+}
+
+.paragraph-container p {
+  font-size: 18px; /* Taille de police plus grande */
+  line-height: 1.8; /* Espacement entre les lignes */
+  color: #333; /* Couleur du texte */
+  margin: 10px 0; /* Espacement entre les paragraphes */
+  display: flex; /* Utilisation de flex pour aligner le span */
+  align-items: center; /* Alignement vertical des éléments flex */
+}
+
+.paragraph-container p span {
+  font-size: 18px; /* Taille de police */
+  font-weight: 600; /* Texte en gras */
+  color: red; /* Couleur rouge */
+  margin-left: 10px; /* Espacement à gauche du span */
+}

@@ -11,6 +11,10 @@ import ProductClient from "./Pages/productClient/Product.jsx";
 import Ajouterproduit from "./Pages/product/Ajouterproduit";
 import ModifierUnProduit from "./Pages/product/ModifierProduit.jsx";
 import ProductDetail from "./Pages/productClient/ProductDetail.jsx";
+import Expedition from "./components/Details/Expedition.jsx";
+import Methodesdepayement from "./components/Details/Methodesdepayement.jsx";
+import Quisommesnous from "./components/Details/Quisommesnous.jsx";
+import Tarifsdelivraison from "./components/Details/Tarifsdelivraison.jsx";
 
 
 const router = createBrowserRouter([
@@ -50,6 +54,26 @@ const router = createBrowserRouter([
     path: "/product/:id",
     element: <ProductDetail></ProductDetail>,
   },
+  {
+    path: "/delivery",
+    element: <Expedition></Expedition>,
+  },
+  {
+    path: "/methodesdepayement",
+    element: <Methodesdepayement></Methodesdepayement>,
+  },
+  {
+    path: "/quisommesnous",
+    element: <Quisommesnous></Quisommesnous>,
+  },
+  {
+    path: "/Pricesdeliverytimes",
+    element: <Tarifsdelivraison></Tarifsdelivraison>,
+  },
+  
+  
+ 
+
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

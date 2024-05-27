@@ -14,12 +14,8 @@ const App = () => {
         <Shipping></Shipping>
         <PromotionalBanner></PromotionalBanner>
         <Feature></Feature>
-        
-
-      
       </div>
     </>
   );
 };
-
 export default App;

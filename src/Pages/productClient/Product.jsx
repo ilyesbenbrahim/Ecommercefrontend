@@ -1,5 +1,6 @@
 import NavBar from "../../components/NavBar";
 import Topbar from "../../components/topbare/Topbar";
+import Feature from "../../components/features/Feature";
 import "./Product.css";
 import imageproduct from "../../assets/imgnike.jpg";
 import { useEffect, useState } from "react";
@@ -31,7 +32,7 @@ const Product = () => {
           src={imageproduct}
           alt="Description of the logo"
         />
-        <h1>Discover our clothing collection</h1>
+        <h1>Discover our clothing collection;</h1>
         <p>Find Quality clothing for children, men and women. Our collection is suitable for all styles and occasions.</p>
 
         <div className="grid-container-client">
@@ -51,7 +52,9 @@ const Product = () => {
             </div>
           ))}
         </div>
+        <Feature></Feature>
       </div>
+      
     </>
   );
 };
