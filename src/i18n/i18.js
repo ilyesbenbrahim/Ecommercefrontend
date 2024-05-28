@@ -6,6 +6,7 @@ i18n
   .use(initReactI18next) // Passer l'instance i18n à react-i18next.
   .init({
      // Spécifie la langue par défaut à utiliser lorsque une traduction n'est pas disponible.
+    lng: "en",
     interpolation: {
       escapeValue: false, // Non nécessaire pour React car il échappe déjà par défaut.
     },
