@@ -13,7 +13,7 @@ const Hero = () => {
           <h1>
           {t('hero:DiscovertheStyle')} <br />
             {t('hero:ThatSuitsYou')} <br />
-            {t('hero:withIlyesExpress')}
+            {t('hero:withIlyeExpress')}
           </h1>
           <p>
           {t('hero:welcomeWelcometoilyesexpressourdedicatedteamisheretohelpyoufind')}<br />

@@ -5,7 +5,7 @@ import translation from '../translation.json';
 i18n
   .use(initReactI18next) // Passer l'instance i18n à react-i18next.
   .init({
-    fallbackLng: 'fr', // Spécifie la langue par défaut à utiliser lorsque une traduction n'est pas disponible.
+     // Spécifie la langue par défaut à utiliser lorsque une traduction n'est pas disponible.
     interpolation: {
       escapeValue: false, // Non nécessaire pour React car il échappe déjà par défaut.
     },

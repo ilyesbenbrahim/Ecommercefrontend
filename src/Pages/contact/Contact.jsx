@@ -2,6 +2,9 @@ import "./Contact.css"
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import { useTranslation } from 'react-i18next';
+import Topbar from "../../components/topbare/Topbar";
+import Feature from "../../components/features/Feature";
+
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -23,24 +26,31 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-container">
-    <form ref={formRef} onSubmit={handleSubmit}>
-        <h2>{t('contact:header')}</h2>
+    <>
+    <Topbar></Topbar>
+    <div  className="contact-container">
+      <form ref={formRef} onSubmit={handleSubmit}>
+        <h2>{t('contact:header')} </h2>
+      
         <label>{t('contact:firstNameLabel')}</label>
-        <input type="text" placeholder={t('contact:firstNamePlaceholder')} name="firstName" />
+        <input type="text" placeholder="Entrez votre prénom" name="firstName" />
         <label>{t('contact:lastNameLabel')}</label>
-        <input type="text" placeholder={t('contact:lastNamePlaceholder')} name="lastName" />
-        <label>{t('contact:phoneLabel')}</label>
-        <input type="tel" placeholder={t('contact:phonePlaceholder')} name="phone" />
+        <input type="text" placeholder={t('contact:lastNamePlaceholder')} name="name" />
+        <label>{t('contact:phoneLabel')} </label>
+        <input type="tel" placeholder={t('contact:phonePlaceholder')} name="number" />
         <label>{t('contact:addressLabel')}</label>
         <input type="text" placeholder={t('contact:addressPlaceholder')} name="address" />
-        <label>{t('contact:emailLabel')}</label>
+        <label>{t('contact:emailLabel')} </label>
         <input type="email" placeholder={t('contact:emailPlaceholder')} name="email" />
         <label>{t('contact:messageLabel')}</label>
-        <textarea placeholder={t('contact:messagePlaceholder')} name="message"></textarea>
+        <textarea placeholder={t('contact:messagePlaceholder')} name="message" />
         <button type="submit">{t('contact:submitButton')}</button>
-    </form>
-</div>
+      </form>
+    </div>
+    <Feature></Feature>
+
+    
+</>
   );
 };
 

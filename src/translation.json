@@ -8,7 +8,7 @@
         "product":"Product"
       },
       "hero": {
-        "DiscovertheStyle": "Discover the Style",
+        "DiscovertheStyle":"Discover the Style",
         "ThatSuitsYou":"that Suits You",
         "withIlyesExpress":"with Ilyes Express",
         "welcomeWelcometoilyesexpressourdedicatedteamisheretohelpyoufind": "Welcome to ilyesexpress, our dedicated team is here to help you find",
@@ -56,7 +56,19 @@
         "messageLabel": "Message:",
         "messagePlaceholder": "Enter your message",
         "submitButton": "Send"
-      }
+      },
+      "feature": {
+        "easeOfPurchase": "Ease of purchase",
+        "makeYourPurchasesWithEase": "Make your purchases with ease thanks to our smooth and secure ordering process.",
+        "allRightsReserved": "© 2024 Ilyes Express, Inc. All Rights Reserved",
+        "about": "About",
+        "paymentMethods": "Payment methods",
+        "whoAreWe": "Who are we",
+        "delivery": "Delivery",
+        "help": "Help",
+        "howToMakeAReturn": "How to make a return",
+        "pricesDeliveryTimes": "Prices & delivery times"
+    }
     },
     "ar": {
       "navbar": {
@@ -102,20 +114,32 @@
       },
       "contact": {
         "header": "اتصل بنا",
-        "firstNameLabel": " : الاسم الأول",
-        "firstNamePlaceholder": "أدخل اسمك الأول",
-        "lastNameLabel": "الاسم الأخير:",
-        "lastNamePlaceholder": "أدخل اسمك الأخير",
-        "phoneLabel": "رقم الهاتف:",
+        "firstNameLabel": " : الاسم ",
+        "firstNamePlaceholder": "أدخل اسمك ",
+        "lastNameLabel": ": اسم العائلة",
+        "lastNamePlaceholder": "أدخل اسم العائلة",
+        "phoneLabel": ": رقم الهاتف",
         "phonePlaceholder": "أدخل رقمك",
         "addressLabel": ": العنوان",
         "addressPlaceholder": "أدخل عنوانك",
-        "emailLabel": "البريد الإلكتروني:",
+        "emailLabel": ": البريد الإلكتروني",
         "emailPlaceholder": "أدخل بريدك الإلكتروني",
-        "messageLabel": "الرسالة:",
+        "messageLabel": ": الرسالة",
         "messagePlaceholder": "أدخل رسالتك",
         "submitButton": "إرسال"
-      }
+      },
+      "feature": {
+        "easeOfPurchase": "  سهولة الشراء",
+        "makeYourPurchasesWithEase": "قم بعمليات الشراء بسهولة بفضل عملية الطلب السلسة والآمنة لدينا.",
+        "allRightsReserved":  "   جميع الحقوق محفوظة . Inc,Ilyes Express 2024 © ",
+        "about": "معلومات ",
+        "paymentMethods": "طرق الدفع",
+        "whoAreWe": "من نحن",
+        "delivery": "التوصيل",
+        "help": "المساعدة",
+        "howToMakeAReturn": "كيفية إجراء إرجاع",
+        "pricesDeliveryTimes": "الأسعار وأوقات التوصيل"
+    }
     },
     "fr": {
       "navbar": {
@@ -161,19 +185,31 @@
       },
         "contact": {
           "header": "Contactez-nous",
-          "firstNameLabel": "Prénom:",
+          "firstNameLabel": "Prénom :",
           "firstNamePlaceholder": "Entrez votre prénom",
           "lastNameLabel": "Nom:",
           "lastNamePlaceholder": "Entrez votre nom",
           "phoneLabel": "Numéro de téléphone:",
           "phonePlaceholder": "Entrez votre numéro",
-          "addressLabel": "Adresse:",
+          "addressLabel": "Adresse :",
           "addressPlaceholder": "Entrez votre adresse",
-          "emailLabel": "Adresse e-mail:",
+          "emailLabel": "Adresse e-mail :",
           "emailPlaceholder": "Entrez votre e-mail",
-          "messageLabel": "Message:",
+          "messageLabel": "Message :",
           "messagePlaceholder": "Entrez votre message",
           "submitButton": "Envoyer"
-        }
+        },
+        "feature": {
+          "easeOfPurchase": "Facilité d'achat",
+          "makeYourPurchasesWithEase": "Faites vos achats facilement grâce à notre processus de commande fluide et sécurisé.",
+          "allRightsReserved": "© 2024 Ilyes express, Inc. Tous droits réservés .",
+          "about": "À propos",
+          "paymentMethods": "Méthodes de paiement",
+          "whoAreWe": "Qui sommes-nous",
+          "delivery": "Livraison",
+          "help": "Aide",
+          "howToMakeAReturn": "Comment faire un retour",
+          "pricesDeliveryTimes": "Prix & délais de livraison"
+      }
   }
     }
