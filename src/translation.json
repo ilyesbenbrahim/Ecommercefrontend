@@ -1,0 +1,179 @@
+{
+    "en": {
+      "navbar": {
+        "aboutUs": "About Us",
+        "advantages": "Advantages",
+        "contact": "Contact",
+        "signUp": "Sign Up",
+        "product":"Product"
+      },
+      "hero": {
+        "DiscovertheStyle": "Discover the Style",
+        "ThatSuitsYou":"that Suits You",
+        "withIlyesExpress":"with Ilyes Express",
+        "welcomeWelcometoilyesexpressourdedicatedteamisheretohelpyoufind": "Welcome to ilyesexpress, our dedicated team is here to help you find",
+       "theclothesthatreflectyourindividuality.":"the clothes that reflect your individuality.",
+       "moreProduct": "More Product",
+       "signIn": "Sign In",
+       "totalRevenue": "Total revenue in 1 year",
+        "increaseSales": "Increase in sales"
+      },
+      "shipping": {
+        "featureHighlights": "Feature Highlights",
+        "goodQuality": "Good Quality",
+        "discoverClothing": "Discover clothing designed to last.",
+        "supeior":"Superior quality, absolute comfort.",
+        "goodPrice": "Good Price",
+        "styleEconomy": "Style and economy under one click.",
+        "modeAvailable":"Mode available for all of us.",
+        "homeDelivery": "Home Delivery",
+        "rapidReliable": "Rapid, reliable, direct to your port.",
+        "commandour":" Command our people!"
+      },
+      "promotionalBanner": {
+        "exploreOur": "Explore our exclusive collection of women ",
+        "clothing":"  clothing and discover the latest fashion trends.",
+        "weHave":"We have something to suit all tastes.",
+        "description": "Our selection is designed to help you express your unique style."
+      },
+      "productClient": {
+        "discoverCollection": "Discover our clothing collection",
+        "findQuality": "Find Quality clothing for children, men and women. Our collection is suitable for all styles and occasions.",
+        "quantityAvailable": "Quantity available :"
+      },
+      "contact": {
+        "header": "Contact Us",
+        "firstNameLabel": "First Name:",
+        "firstNamePlaceholder": "Enter your first name",
+        "lastNameLabel": "Last Name:",
+        "lastNamePlaceholder": "Enter your last name",
+        "phoneLabel": "Phone Number:",
+        "phonePlaceholder": "Enter your number",
+        "addressLabel": "Address:",
+        "addressPlaceholder": "Enter your address",
+        "emailLabel": "Email Address:",
+        "emailPlaceholder": "Enter your email",
+        "messageLabel": "Message:",
+        "messagePlaceholder": "Enter your message",
+        "submitButton": "Send"
+      }
+    },
+    "ar": {
+      "navbar": {
+        "aboutUs": "معلومات عنا",
+        "advantages": "المزايا",
+        "contact": "تواصل",
+        "signUp": "تسجيل",
+        "product":"منتج"
+      },
+      "hero": {
+        "DiscovertheStyle": "اكتشف الأسلوب",
+        "ThatSuitsYou": "هذا يناسبك ",
+        "withIlyesExpress":"Ilyes Express مع",
+        "welcomeWelcometoilyesexpressourdedicatedteamisheretohelpyoufind": "مرحبًا بك في ilyesexpress، فريقنا المتخصص هنا لمساعدتك في العثور على ما تريد      ",
+        "theclothesthatreflectyourindividuality.": "الملابس التي تعكس شخصيتك. ",
+        "moreProduct": "المزيد من المنتجات",
+        "signIn": "تسجيل الدخول",
+        "totalRevenue": "إجمالي الإيرادات في سنة واحدة",
+        "increaseSales": "زيادة في المبيعات"
+      },
+      "shipping": {
+        "featureHighlights": "مميزات بارزة",
+        "goodQuality": "جودة جيدة",
+        "discoverClothing": ".اكتشف الملابس المصممة لتدوم",
+        "supeior": ".جودة عالية، راحة مطلقة",
+        "goodPrice": "سعر جيد",
+        "styleEconomy": "الأناقة والاقتصاد بنقرة واحدة.",
+        "modeAvailable":"الموضة متاحة للجميع",
+        "homeDelivery": "توصيل منزلي",
+        "rapidReliable": "سريع وموثوق، مباشرة إلى باب منزلك. ",
+        "commandour":".اطلب منا"
+      },
+      "promotionalBanner": {
+        "exploreOur":"استكشف  مجموعتنا الحصرية من ملابس النساء",
+        "clothing":"واكتشف أحدث صيحات الموضة",
+        "weHave":" لدينا شيء يناسب جميع الأذواق ",
+        "description": "تم تصميم مجموعتنا لمساعدتك على التعبير عن أسلوبك الفريد"
+      },
+      "productClient": {
+        "discoverCollection": "اكتشف مجموعتنا من الملابس",
+        "findQuality": "اعثر على ملابس ذات جودة للأطفال والرجال والنساء. مجموعتنا مناسبة لجميع الأنماط والمناسبات.",
+        "quantityAvailable": " : الكمية المتوفرة"
+      },
+      "contact": {
+        "header": "اتصل بنا",
+        "firstNameLabel": " : الاسم الأول",
+        "firstNamePlaceholder": "أدخل اسمك الأول",
+        "lastNameLabel": "الاسم الأخير:",
+        "lastNamePlaceholder": "أدخل اسمك الأخير",
+        "phoneLabel": "رقم الهاتف:",
+        "phonePlaceholder": "أدخل رقمك",
+        "addressLabel": ": العنوان",
+        "addressPlaceholder": "أدخل عنوانك",
+        "emailLabel": "البريد الإلكتروني:",
+        "emailPlaceholder": "أدخل بريدك الإلكتروني",
+        "messageLabel": "الرسالة:",
+        "messagePlaceholder": "أدخل رسالتك",
+        "submitButton": "إرسال"
+      }
+    },
+    "fr": {
+      "navbar": {
+        "aboutUs": "À propos de nous",
+        "advantages": "Avantages",
+        "contact": "Contact",
+        "signUp": "Inscription",
+        "product":"Produit"
+      },
+      "hero": {
+        "DiscovertheStyle": "Découvrez le Style",
+        "ThatSuitsYou": "Qui te convient ",
+        "withIlyesExpress":"avec Ilyes Express ",
+        "welcomeWelcometoilyesexpressourdedicatedteamisheretohelpyoufind": "Bienvenue chez ilyesexpress, notre équipe dédiée est là pour vous aider à trouver  ",
+        "theclothesthatreflectyourindividuality.": "Les vêtements qui reflètent votre individualité.",
+        "moreProduct": "Plus de produits",
+        "signIn": "Se connecter",
+        "totalRevenue": "Revenu total en 1 an",
+        "increaseSales": "Augmentation des ventes"
+      },
+      "shipping": {
+        "featureHighlights": "Points forts des caractéristiques",
+        "goodQuality": "Bonne Qualité",
+        "discoverClothing": "Découvrez des vêtements conçus pour durer.",
+        "supeior":" Qualité supérieure, confort absolu.",
+        "goodPrice": "Bon Prix",
+        "styleEconomy": "Style et économie en un clic.",
+        "modeAvailable":"Mode accessible à tous.",
+        "homeDelivery": "Livraison à domicile",
+        "rapidReliable": "Rapide, fiable, directement à votre porte.",
+        "commandour":"Commandez chez nous!"
+      },
+      "promotionalBanner": {
+        "exploreOur":"Explorez notre collection exclusive de vêtements pour femmes",
+        "clothing":"et découvrez les dernières tendances de la mode.",
+        "weHave":"Nous avons quelque chose pour tous les goûts.",
+        "description": "Notre sélection est conçue pour vous aider à exprimer votre style unique."
+      },
+      "productClient": {
+        "discoverCollection": "Découvrez notre collection de vêtements",
+        "findQuality": "Trouvez des vêtements de qualité pour enfants, hommes et femmes. Notre collection convient à tous les styles et occasions.",
+        "quantityAvailable": "Quantité disponible :"
+      },
+        "contact": {
+          "header": "Contactez-nous",
+          "firstNameLabel": "Prénom:",
+          "firstNamePlaceholder": "Entrez votre prénom",
+          "lastNameLabel": "Nom:",
+          "lastNamePlaceholder": "Entrez votre nom",
+          "phoneLabel": "Numéro de téléphone:",
+          "phonePlaceholder": "Entrez votre numéro",
+          "addressLabel": "Adresse:",
+          "addressPlaceholder": "Entrez votre adresse",
+          "emailLabel": "Adresse e-mail:",
+          "emailPlaceholder": "Entrez votre e-mail",
+          "messageLabel": "Message:",
+          "messagePlaceholder": "Entrez votre message",
+          "submitButton": "Envoyer"
+        }
+  }
+    }

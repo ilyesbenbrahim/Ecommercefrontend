@@ -5,10 +5,12 @@ import "./Product.css";
 import imageproduct from "../../assets/imgnike.jpg";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { useTranslation } from 'react-i18next';
+
 
 const Product = () => {
+  const { t } = useTranslation();
   const [products, setProducts] = useState([]);
-
   useEffect(() => {
     fetchProducts();
     // console.log(products)
@@ -32,8 +34,8 @@ const Product = () => {
           src={imageproduct}
           alt="Description of the logo"
         />
-        <h1>Discover our clothing collection;</h1>
-        <p>Find Quality clothing for children, men and women. Our collection is suitable for all styles and occasions.</p>
+        <h1> {t('productClient:discoverCollection')} </h1>
+        <p>{t('productClient:findQuality')}</p>
 
         <div className="grid-container-client">
           {products.map((product) => (
@@ -48,7 +50,7 @@ const Product = () => {
               </a>
               <p>{product.title}</p>
               <p>{product.prixduproduit} : DA</p>
-              <p>Quantity available : {product.quantitedisponible}</p>
+              <p>{t('productClient:quantityAvailable')} {product.quantitedisponible}</p>
             </div>
           ))}
         </div>

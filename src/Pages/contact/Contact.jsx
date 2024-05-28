@@ -1,8 +1,10 @@
 import "./Contact.css"
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const formRef = useRef(null);
 
   const handleSubmit = async (e) => {
@@ -21,24 +23,24 @@ const Contact = () => {
   };
 
   return (
-    <div  className="contact-container">
-      <form ref={formRef} onSubmit={handleSubmit}>
-        <h2>Contactez-nous</h2>
-        <label>Prénom:</label>
-        <input type="text" placeholder="Entrez votre prénom" name="firstName" />
-        <label>Nom:</label>
-        <input type="text" placeholder="Entrez votre nom" name="name" />
-        <label>Numéro de téléphone:</label>
-        <input type="tel" placeholder="Entrez votre numéro" name="number" />
-        <label>Adresse:</label>
-        <input type="text" placeholder="Entrez votre adresse" name="address" />
-        <label>Adresse e-mail:</label>
-        <input type="email" placeholder="Entrez votre e-mail" name="email" />
-        <label>Message:</label>
-        <textarea placeholder="Entrez votre message" name="message" />
-        <button type="submit">Envoyer</button>
-      </form>
-    </div>
+    <div className="contact-container">
+    <form ref={formRef} onSubmit={handleSubmit}>
+        <h2>{t('contact:header')}</h2>
+        <label>{t('contact:firstNameLabel')}</label>
+        <input type="text" placeholder={t('contact:firstNamePlaceholder')} name="firstName" />
+        <label>{t('contact:lastNameLabel')}</label>
+        <input type="text" placeholder={t('contact:lastNamePlaceholder')} name="lastName" />
+        <label>{t('contact:phoneLabel')}</label>
+        <input type="tel" placeholder={t('contact:phonePlaceholder')} name="phone" />
+        <label>{t('contact:addressLabel')}</label>
+        <input type="text" placeholder={t('contact:addressPlaceholder')} name="address" />
+        <label>{t('contact:emailLabel')}</label>
+        <input type="email" placeholder={t('contact:emailPlaceholder')} name="email" />
+        <label>{t('contact:messageLabel')}</label>
+        <textarea placeholder={t('contact:messagePlaceholder')} name="message"></textarea>
+        <button type="submit">{t('contact:submitButton')}</button>
+    </form>
+</div>
   );
 };
 

@@ -5,8 +5,15 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { useTranslation } from 'react-i18next';
 const Topbar = () => {
+  const { i18n } = useTranslation();
+
+  const handleLanguage = (event) => {
+    const choice = event.target.value;
+    i18n.changeLanguage(choice);
+  };
+
   return (
     <div className="topbar">
       <div className="topbar-container">
@@ -29,11 +36,10 @@ const Topbar = () => {
           <FaLinkedin className="icon" color="blue" />
           </Link>
 
-
-          <select className="langSelect">
-            <option value="English">En</option>
-            <option value="Français">Fr</option>
-            <option value="Arabic">Ar</option>
+          <select className="langSelect" onChange={handleLanguage}>
+            <option value="en">En</option>
+            <option value="fr">Fr</option>
+            <option value="ar">Ar</option>
           </select>
         </div>
       </div>

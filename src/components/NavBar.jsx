@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { MdShoppingCart } from "react-icons/md";
+import { useTranslation } from 'react-i18next';
 import "../components/NavBar.css";
 import logo from "../assets/ilyesexpresss.png";
 const NavBar = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="navbar">
       <div className="navbar-container">
@@ -11,13 +14,13 @@ const NavBar = () => {
           <nav>
             <ul>
               <li>
-                <Link to="/">About Us</Link>
+              <Link to="/">{t('navbar:aboutUs')}</Link>
               </li>
               <li>
-                <Link to="/Advantages">Advantages</Link>
+              <Link to="/Advantages">{t('navbar:advantages')}</Link>
               </li>
               <li>
-                <Link to="/Contact">Contact</Link>
+              <Link to="/Contact">{t('navbar:contact')}</Link>
               </li>
             </ul>
           </nav>
@@ -25,13 +28,13 @@ const NavBar = () => {
 
         <div className="navbar-buttons">
           <span>
-            <Link to="/signUp">Sing up</Link>
+          <Link to="/signUp">{t('navbar:signUp')}</Link>
           </span>
           <div className="icon-container">
             <MdShoppingCart className="icons-shopping-cart" />
           </div>
 
-          <button> Product </button>
+          <button>{t('navbar:product')}</button>
         </div>
       </div>
     </div>

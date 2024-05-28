@@ -1,6 +1,8 @@
 import "./PromotionalBanner.css";
 import imagewomen from "../../assets/woman-content.jpg";
+import { useTranslation } from 'react-i18next';
 const PromotionalBanner = () => {
+  const { t } = useTranslation();
   return (
     <div className="promotionalbanner">
       <div className="promotionalbanner-container">
@@ -12,8 +14,8 @@ const PromotionalBanner = () => {
           />
         </div>
         <div className="info-promotionalbanner">
-            <h1>Explore our exclusive collection   of women <br></br>  clothing and discover the latest fashion trends <br></br> We have something to suit all tastes</h1>
-            <p>Our selection is designed to help you express your unique style.</p>
+            <h1>{t('promotionalBanner:exploreOur')}<br></br>  {t('promotionalBanner:clothing')}<br></br>{t('promotionalBanner:weHave')}</h1>
+            <p>{t('promotionalBanner:description')} </p>
         </div>
       </div>
     </div>
