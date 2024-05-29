@@ -1,62 +1,28 @@
 /* Tarifsdelivraison.css */
 table {
-    width: 100%;
-    border-collapse: collapse; /* Borders are collapsed into a single border */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow around the table */
-    background-color: #fff; /* Sets a white background color for the table */
-    margin: 20px 0; /* Adds margin above and below the table */
-    font-family: 'Arial', sans-serif; /* Sets the font for the table */
-  }
-  
-  th, td {
-    padding: 12px 15px; /* Adds padding inside each cell */
-    border-bottom: 1px solid #ddd; /* Adds a light line between rows */
-    text-align: left; /* Aligns text to the left */
-  }
-  
-  th {
-    background-color: #f4f4f4; /* Light gray background for headers */
-    color: #333; /* Dark gray text color for headers */
-    font-weight: bold; /* Makes header text bold */
-  }
-  
-  tbody tr:hover {
-    background-color: #f9f9f9; /* Changes background on row hover */
-  }
-  
-  @media screen and (max-width: 600px) {
-    table, thead, tbody, th, td, tr {
-      display: block; /* Changes table display to block for smaller screens */
-    }
-  
-    th, td {
-      text-align: right; /* Right-aligns text in headers and cells for better readability */
-      padding-left: 50%; /* Adds a large left padding to separate the content from the edge */
-    }
-  
-    th {
-      position: absolute; /* Positions the header absolutely within its parent */
-      top: -9999px; /* Moves the header out of view */
-      left: -9999px; /* Continues moving the header out of view */
-    }
-  
-    tr { border: 1px solid #ccc; } /* Adds border to each row */
-  
-    td {
-      border: none; /* Removes borders from cells */
-      position: relative; /* Sets the position context for absolutely positioned elements inside */
-      padding-left: 50%; /* Ensures text doesn't start too far to the left */
-      text-align: left; /* Aligns text to the left */
-    }
-  
-    td:before {
-      content: attr(data-label); /* Uses the data-label attribute's value as content */
-      position: absolute; /* Absolutely positions the pseudo-element */
-      left: 10px; /* Positions the pseudo-element to the left */
-      width: 45%; /* Sets a specific width for the label */
-      padding-right: 10px; /* Adds right padding */
-      white-space: nowrap; /* Ensures the text doesn't wrap */
-      font-weight: bold; /* Makes the label text bold */
-    }
-  }
-  
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  font-family: 'Arial', sans-serif;
+  margin: 50px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tbody tr {
+  background-color: #fff;
+}
+
+tbody tr:hover {
+  background-color: #eaeaea;
+}

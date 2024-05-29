@@ -3,35 +3,35 @@ import NavBar from "../NavBar";
 import Feature from "../features/Feature";
 import "./Expedition.css";
 import imgshippingdelivery from "../../assets/shipping-delivery.webp";
+import { useTranslation } from 'react-i18next';
 
 const Expedition = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Topbar></Topbar>
       <NavBar></NavBar>
       <div className="mode_Delivery">
-        <h2>Delivery</h2>
+        <h2>{t('Expedition:mode_Delivery')}</h2>
       </div>
       <div className="accueil_Delivery">
-        <span>Home / Delivery</span>
+        <span>{t('Expedition:accueil_Delivery')}</span>
       </div>
       <div className="Ligne_droite_centre"></div>
       <div className="img_Delivery">
         <img
           className="image_Delivery"
           src={imgshippingdelivery}
-          alt="Delivery"
+          alt="{t('Expedition:deliveryImageAlt')}"
         />
       </div>
       <div className="paragraph-container">
         <p>
-          After confirming the purchase by telephone, we ship and send the
-          product via the available delivery services.
+        {t('Expedition:deliveryParagraph1')}
         </p>
         <p>
-          Nous assurons la livraison de vos colis dans un délai maximal de 48
-          heures. Vous pouvez opter soit pour une livraison à domicile, soit
-          pour une livraison au bureau.
+        {t('Expedition:deliveryParagraph2')}
         </p>
       </div>
       <Feature></Feature>

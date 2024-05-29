@@ -3,7 +3,6 @@ import "../components/Hero.css";
 import imageshoping from "../assets/heroshopping.webp";
 import { useTranslation } from 'react-i18next';
 
-
 const Hero = () => {
   const { t } = useTranslation();
   return (

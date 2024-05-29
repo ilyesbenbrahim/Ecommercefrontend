@@ -4,6 +4,7 @@ import emailjs from "emailjs-com";
 import { useTranslation } from 'react-i18next';
 import Topbar from "../../components/topbare/Topbar";
 import Feature from "../../components/features/Feature";
+import NavBar from "../../components/NavBar"
 
 
 const Contact = () => {
@@ -28,6 +29,7 @@ const Contact = () => {
   return (
     <>
     <Topbar></Topbar>
+    <NavBar></NavBar>
     <div  className="contact-container">
       <form ref={formRef} onSubmit={handleSubmit}>
         <h2>{t('contact:header')} </h2>
