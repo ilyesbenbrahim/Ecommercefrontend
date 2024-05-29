@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
           <div className="revenue-Increase">
             <div className="revenue">
-              <h4>+150,000</h4>
+              <h4>+140,000</h4>
               <div className="revenue-one-year">{t('hero:totalRevenue')}</div>
             </div>
             <div className="Increase ">
