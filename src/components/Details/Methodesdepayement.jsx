@@ -1,6 +1,6 @@
 import Topbar from "../topbare/Topbar";
 import NavBar from "../NavBar";
-import Feature from "../features/Feature"
+import Feature from "../features/Feature";
 import "./Methodesdepayement.css";
 import imgModalitedepaiement from "../../assets/Modalitedepaiement.webp";
 import { useTranslation } from 'react-i18next';

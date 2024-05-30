@@ -1,7 +1,7 @@
 {
     "en": {
       "navbar": {
-        "aboutUs": "About Us",
+        "Home": "Home",
         "advantages": "Advantages",
         "contact": "Contact",
         "signUp": "Sign Up",
@@ -81,7 +81,10 @@
       "title": "Who are we ?",
       "breadcrumbs": "Home / Who are we?",
       "imageAlt": "Delivery",
-      "welcomeMessage": "Welcome to our online store dedicated to the whole family! Since our beginnings in 2019, after graduating from the École Supérieure de Commerce, our passion for mens, womens and childrens fashion has continued to grow. Every piece we select reflects our commitment to providing an incomparable shopping experience. Our journey is marked by particular attention to emerging trends and the specific needs of our diverse clientele. Whether you are looking for timeless classics or the latest trends, our diverse collection will meet your expectations. Explore our clothing selection today and find the perfect expression of your unique style. In addition, we ensure fast home delivery throughout Algeria, in just 24 hours."
+      "welcomeMessage": "Welcome to our online store dedicated to the whole family! Since our beginnings in 2019, after graduating from the École Supérieure de Commerce, our passion for mens, womens and childrens fashion has continued to grow. Every piece we select reflects our commitment to providing an incomparable shopping experience. Our journey is marked by particular attention to emerging trends and the specific needs of our diverse clientele. Whether you are looking for timeless classics or the latest trends, our diverse collection will meet your expectations. Explore our clothing selection today and find the perfect expression of your unique style. In addition, we ensure fast home delivery throughout Algeria, in just 24 hours.",
+      "howtomakeareturn":"How to make a return ?",
+      "howtrturn":"Home / How to make a return ?",
+   "welcomereturn":"We understand your disappointment, however, we would like to inform you that cash refunds are not possible. However, we would like to offer you an alternative: the possibility of exchanging your product within 48 hours of receipt of your order. This option will allow you to choose another item from our selection that better meets your expectations. We thank you for your understanding and cooperation. If you have any questions or need assistance with the exchange, please do not hesitate to contact our customer service team, who will be happy to assist you."
     },
     "Expedition": {
       "mode_Delivery": "Delivery",
@@ -161,7 +164,7 @@
     },
     "ar": {
       "navbar": {
-        "aboutUs": "معلومات عنا",
+        "Home": "الصفحة الرئيسية",
         "advantages": "المزايا",
         "contact": "تواصل",
         "signUp": "تسجيل",
@@ -241,7 +244,10 @@
       "title": "من نحن ؟",
       "breadcrumbs": "الرئيسية / من نحن ؟",
       "imageAlt": "التوصيل",
-      "welcomeMessage": "مرحباً بكم في متجرنا الإلكتروني المخصص لكل العائلة! منذ بداياتنا في 2019، بعد التخرج من المدرسة العليا للتجارة، استمر شغفنا بأزياء الرجال والنساء والأطفال في النمو. كل قطعة نختارها تعكس التزامنا بتقديم تجربة تسوق لا مثيل لها. رحلتنا ملحوظة بالاهتمام الخاص بالاتجاهات الناشئة واحتياجات عملائنا المتنوعين. سواء كنت تبحث عن الكلاسيكيات الخالدة أو أحدث الاتجاهات، فإن مجموعتنا المتنوعة ستلبي توقعاتك. استكشف مجموعة ملابسنا اليوم واعثر على التعبير المثالي عن أسلوبك الفريد. بالإضافة إلى ذلك، نضمن توصيل منزلي سريع في جميع أنحاء الجزائر، في غضون 24 ساعة."
+      "welcomeMessage": "مرحباً بكم في متجرنا الإلكتروني المخصص لكل العائلة! منذ بداياتنا في 2019، بعد التخرج من المدرسة العليا للتجارة، استمر شغفنا بأزياء الرجال والنساء والأطفال في النمو. كل قطعة نختارها تعكس التزامنا بتقديم تجربة تسوق لا مثيل لها. رحلتنا ملحوظة بالاهتمام الخاص بالاتجاهات الناشئة واحتياجات عملائنا المتنوعين. سواء كنت تبحث عن الكلاسيكيات الخالدة أو أحدث الاتجاهات، فإن مجموعتنا المتنوعة ستلبي توقعاتك. استكشف مجموعة ملابسنا اليوم واعثر على التعبير المثالي عن أسلوبك الفريد. بالإضافة إلى ذلك، نضمن توصيل منزلي سريع في جميع أنحاء الجزائر، في غضون 24 ساعة.",
+  "howtomakeareturn":"كيفية عمل عملية الإرجاع ؟" ,
+  "howtrturn":"? اللرئيسية / كيفية عمل عملية الإرجاع ",
+  "welcomereturn":"نحن نتفهم خيبة أملك، ومع ذلك، نود أن نعلمك أنه من غير الممكن استرداد المبالغ النقدية. ومع ذلك، نود أن نقدم لك بديلاً: إمكانية استبدال منتجك خلال 48 ساعة من استلام طلبك. سيسمح لك هذا الخيار باختيار عنصر آخر من مجموعتنا التي تلبي توقعاتك بشكل أفضل. نشكركم على تفهمكم وتعاونكم. إذا كانت لديك أي أسئلة أو كنت بحاجة إلى مساعدة في عملية الاستبدال، فلا تتردد في الاتصال بفريق خدمة العملاء لدينا، والذي سيكون سعيدًا بمساعدتك."
     },
     "Expedition": {
       "mode_Delivery": "التوصيل",
@@ -321,7 +327,7 @@
     },
     "fr": {
       "navbar": {
-        "aboutUs": "À propos de nous",
+        "Home": "Accueil",
         "advantages": "Avantages",
         "contact": "Contact",
         "signUp": "Inscription",
@@ -401,7 +407,10 @@
         "title": "Qui sommes-nous ?",
         "breadcrumbs": "Accueil / Qui sommes-nous ?",
         "imageAlt": "Livraison",
-        "welcomeMessage": "Bienvenue dans notre boutique en ligne dédiée à toute la famille! Depuis nos débuts en 2019, après avoir été diplômé de l'École Supérieure de Commerce, notre passion pour la mode hommes, femmes et enfants a continué de croître. Chaque pièce que nous sélectionnons reflète notre engagement à offrir une expérience d'achat incomparable. Notre parcours est marqué par une attention particulière aux tendances émergentes et aux besoins spécifiques de notre clientèle diversifiée. Que vous recherchiez des classiques intemporels ou les dernières tendances, notre collection variée répondra à vos attentes. Explorez notre sélection de vêtements aujourd'hui et trouvez l'expression parfaite de votre style unique. De plus, nous assurons une livraison rapide à domicile à travers toute l'Algérie, en seulement 24 heures."
+        "welcomeMessage": "Bienvenue dans notre boutique en ligne dédiée à toute la famille! Depuis nos débuts en 2019, après avoir été diplômé de l'École Supérieure de Commerce, notre passion pour la mode hommes, femmes et enfants a continué de croître. Chaque pièce que nous sélectionnons reflète notre engagement à offrir une expérience d'achat incomparable. Notre parcours est marqué par une attention particulière aux tendances émergentes et aux besoins spécifiques de notre clientèle diversifiée. Que vous recherchiez des classiques intemporels ou les dernières tendances, notre collection variée répondra à vos attentes. Explorez notre sélection de vêtements aujourd'hui et trouvez l'expression parfaite de votre style unique. De plus, nous assurons une livraison rapide à domicile à travers toute l'Algérie, en seulement 24 heures.",
+        "howtomakeareturn":"Comment effectuer un retour ?    ",
+        "howtrturn":"Accueil / Comment effectuer un retour ?",
+        "welcomereturn":"Nous comprenons votre déception, cependant, nous souhaitons vous informer que les remboursements en espèces ne sont pas envisageables. Cependant, nous tenons à vous offrir une alternative : la possibilité d'échanger votre produit dans un délai de 48 heures suivant la réception de votre commande. Cette option vous permettra de choisir un autre article de notre sélection qui correspond mieux à vos attentes. Nous vous remercions pour votre compréhension et votre collaboration. Si vous avez des questions ou besoin d'assistance pour procéder à l'échange, n'hésitez pas à contacter notre équipe de service clientèle, qui se fera un plaisir de vous aider."
       },
       "Expedition": {
         "mode_Delivery": "Livraison",

@@ -7,6 +7,9 @@
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
 }
 .topbar-container {
   display: flex;

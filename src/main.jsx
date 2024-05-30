@@ -15,6 +15,8 @@ import Expedition from "./components/Details/Expedition.jsx";
 import Methodesdepayement from "./components/Details/Methodesdepayement.jsx";
 import Quisommesnous from "./components/Details/Quisommesnous.jsx";
 import Tarifsdelivraison from "./components/Details/Tarifsdelivraison.jsx";
+import Commentfaireunretour from "./components/Details/Commentfaireunretour.jsx";
+import Avantages from "./Pages/avantages/Avantages.jsx";
 
 
 const router = createBrowserRouter([
@@ -70,7 +72,17 @@ const router = createBrowserRouter([
     path: "/Pricesdeliverytimes",
     element: <Tarifsdelivraison></Tarifsdelivraison>,
   },
-  
+  {
+    path: "/commentfaireunretour",
+    element: <Commentfaireunretour></Commentfaireunretour>
+  },
+  {
+    path: "/Advantages",
+    element: <Avantages></Avantages>
+  },
+
+
+
   
  
 

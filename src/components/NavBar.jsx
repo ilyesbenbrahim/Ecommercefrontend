@@ -14,7 +14,7 @@ const NavBar = () => {
           <nav>
             <ul>
               <li>
-              <Link to="/">{t('navbar:aboutUs')}</Link>
+              <Link to="/">{t('navbar:Home')}</Link>
               </li>
               <li>
               <Link to="/Advantages">{t('navbar:advantages')}</Link>
