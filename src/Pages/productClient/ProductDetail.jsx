@@ -1,3 +1,4 @@
+import "./ProductDetail.css"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 const ProductDetail = () => {
@@ -24,13 +25,21 @@ const ProductDetail = () => {
       });
   }, [id]);
   return (
-    <div>
+    <div className="product-detail-container">
+      
+      <img src={image} alt="Product" className="product-image" />
+    <div className="product-detail-for">
       <h2>{title}</h2>
-      <img src={image} alt="Product" />
-      <p>Quantity Available: {quantiteDisponible}</p>
-      <p>Price: ${prixDuProduit}</p>
-      <p>Description: {description}</p>
-      <p>Number of Products Sold: {nbrProductSelled}</p>
+      <p className="product-quantity">
+      <p className="product-description">Description: {description}</p>
+
+        Quantity Available: {quantiteDisponible}
+      </p>
+      <p className="product-price">Price: ${prixDuProduit}</p>
+      <p className="product-sold">
+        Number of Products Sold: {nbrProductSelled}
+      </p>
+      </div>
     </div>
   );
 };
