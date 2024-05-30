@@ -23,16 +23,28 @@
 }
 .about{
   margin-right: 100px;
+    margin-inline-start: 50px;
 }
 .about h3 {
-  color: #fff;
- height: 8px;
+  color:#fff;
+
 }
 .help h3{
   color: #fff;
- height: 8px;
 }
-.reserved h6{
+.reserved h5{
   color: #fff;
+margin-top: 50px;
+}
+
+.feature-highlight .lien {
+  color: #707072;
+}
+
+.feature-highlight .lien:hover {
+  color: #00f;
+}
+.help{
+  margin-inline-start: 20px;
 }
 

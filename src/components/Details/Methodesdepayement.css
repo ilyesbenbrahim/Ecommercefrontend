@@ -32,14 +32,12 @@
   font-size: larger;
 }
 
-/* Ligne de séparation améliorée */
 .Ligne_droite_centre {
   border-top: 2px solid #c7d9e5; /* Épaisseur de la ligne augmentée */
   width: 100%;
   margin: 20px 0;
 }
 
-/* Amélioration de la section image */
 .img_paiement {
   display: flex;
   justify-content: center;

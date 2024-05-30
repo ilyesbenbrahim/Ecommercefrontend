@@ -14,8 +14,6 @@
 .hero-container {
   display: flex;
   justify-content: space-between;
-
-  /* max-width: 100%; */
 }
 .imagehero {
   width: 500px;
