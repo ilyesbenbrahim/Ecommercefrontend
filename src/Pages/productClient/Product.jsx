@@ -2,12 +2,10 @@ import NavBar from "../../components/NavBar";
 import Topbar from "../../components/topbare/Topbar";
 import Feature from "../../components/features/Feature";
 import "./Product.css";
-import imageproduct from "../../assets/imgnike.jpg";
+import imageproduct from "../../assets/famyli .png";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useTranslation } from 'react-i18next';
-
-
 const Product = () => {
   const { t } = useTranslation();
   const [products, setProducts] = useState([]);
