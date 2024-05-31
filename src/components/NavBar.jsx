@@ -33,8 +33,10 @@ const NavBar = () => {
           <div className="icon-container">
             <MdShoppingCart className="icons-shopping-cart" />
           </div>
-
+          <Link to="/productClient" >
           <button>{t('navbar:product')}</button>
+          </Link>
+
         </div>
       </div>
     </div>

@@ -2,8 +2,8 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import CssBaseline from "@mui/material/CssBaseline";
 import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
+// import FormControlLabel from "@mui/material/FormControlLabel";
+// import Checkbox from "@mui/material/Checkbox";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
 import Box from "@mui/material/Box";
@@ -13,8 +13,13 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import { useState } from "react";
+import Topbar from "../../components/topbare/Topbar";
+import NavBar from "../../components/NavBar";
+import Feature from "../../components/features/Feature";
+
 function Copyright(props) {
   return (
+    
     <Typography
       variant="body2"
       color="text.secondary"
@@ -60,6 +65,9 @@ export default function SignUp() {
   };
 
   return (
+    <>
+     <Topbar></Topbar>
+        <NavBar></NavBar>
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
@@ -135,12 +143,12 @@ export default function SignUp() {
                 />
               </Grid>
               <Grid item xs={12}>
-                <FormControlLabel
-                  control={
-                    <Checkbox value="allowExtraEmails" color="primary" />
-                  }
-                  label="I want to receive inspiration, marketing promotions and updates via email."
-                />
+                {/* <FormControlLabel */}
+                  {/* control={ */}
+                    {/* <Checkbox value="allowExtraEmails" color="primary" /> */}
+                  {/* } */}
+                  {/* // label="I want to receive inspiration, marketing promotions and updates via email." */}
+                {/* /> */}
               </Grid>
             </Grid>
             <Button
@@ -154,7 +162,7 @@ export default function SignUp() {
             <Grid container justifyContent="flex-end">
               <Grid item>
                 <Link href="#" variant="body2">
-                  Already have an account? Sign in
+                  {/* Already have an account? Sign in */}
                 </Link>
               </Grid>
             </Grid>
@@ -163,5 +171,8 @@ export default function SignUp() {
         <Copyright sx={{ mt: 5 }} />
       </Container>
     </ThemeProvider>
+    <Feature></Feature>
+
+    </>
   );
 }

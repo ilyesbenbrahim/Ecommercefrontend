@@ -1,6 +1,9 @@
 import "./ProductDetail.css"
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Topbar from "../../components/topbare/Topbar";
+import NavBar from "../../components/NavBar";
+import Feature from "../../components/features/Feature";
 const ProductDetail = () => {
   const { id } = useParams();
   const [description, setDescription] = useState("");
@@ -25,6 +28,10 @@ const ProductDetail = () => {
       });
   }, [id]);
   return (
+  <>
+   <Topbar></Topbar>
+        <NavBar></NavBar>
+
     <div className="product-detail-container">
       
       <img src={image} alt="Product" className="product-image" />
@@ -40,7 +47,11 @@ const ProductDetail = () => {
         Number of Products Sold: {nbrProductSelled}
       </p>
       </div>
+
     </div>
+    <Feature></Feature>
+
+    </>
   );
 };
 
