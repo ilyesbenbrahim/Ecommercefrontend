@@ -55,7 +55,10 @@
         "emailPlaceholder": "Enter your email",
         "messageLabel": "Message:",
         "messagePlaceholder": "Enter your message",
-        "submitButton": "Send"
+        "submitButton": "Send",
+        "paragrapheone": "Immerse yourself in an unparalleled online shopping experience with our e-commerce platform dedicated to fashion for the whole family. Discover a universe of possibilities where fashion meets practicality. Browse our extensive catalog full of the latest trends and timeless classics, carefully selected to suit every style and occasion. Whether you're looking for a chic outfit for a special night out or casual clothes for a relaxing weekend, we've got you covered. Our user-friendly and intuitive site allows you to navigate with ease, providing you with a smooth and enjoyable online shopping experience. Quickly find items that match your tastes and needs with our advanced search filters and well-organized categories. Plus, we offer a wide range of sizes to ensure a perfect fit for every body shape.",
+        "paragraphetwo":"Also take advantage of our fast and reliable delivery service, allowing you to receive your purchases directly to your door as quickly as possible. And if you have any questions or need assistance, our customer service team is always here to help. With our e-commerce site, online shopping becomes a stress-free experience, where quality, convenience and exceptional customer service are guaranteed.",
+        "paragraphethree":"But that's not all. By choosing our platform, you also benefit from many exclusive advantages. We regularly offer special offers and attractive promotions to help you save on your favorite purchases. Plus, our loyalty program rewards you every time you make a purchase, allowing you to accumulate points redeemable for discounts and gifts. We also pride ourselves on our commitment to sustainability and ethics, offering a selection of eco-friendly brands and responsible manufacturing practices. By choosing our e-commerce site, you are choosing ethical and sustainable fashion, while enjoying an incomparable online shopping experience."
       },
       "feature": {
         "easeOfPurchase": "Ease of purchase",
@@ -218,7 +221,13 @@
         "emailPlaceholder": "أدخل بريدك الإلكتروني",
         "messageLabel": ": الرسالة",
         "messagePlaceholder": "أدخل رسالتك",
-        "submitButton": "إرسال"
+        "submitButton": "إرسال",
+        "paragrapheone":"انغمس في تجربة تسوق غير مسبوقة عبر الإنترنت من خلال منصة التجارة الإلكترونية الخاصة بنا المخصصة للأزياء لجميع أفراد الأسرة. اكتشف عالمًا من الإمكانيات حيث تجتمع الموضة مع التطبيق العملي. تصفح كتالوجنا الشامل المليء بأحدث الاتجاهات والكلاسيكيات الخالدة، والتي تم اختيارها بعناية لتناسب كل الأنماط والمناسبات. سواء كنت تبحث عن ملابس أنيقة لقضاء ليلة خاصة في الخارج أو ملابس غير رسمية لقضاء عطلة نهاية أسبوع مريحة، فلدينا ما تبحث عنه. يتيح لك موقعنا سهل الاستخدام والبديهي التنقل بسهولة، مما يوفر لك تجربة تسوق سلسة وممتعة عبر الإنترنت. يمكنك العثور بسرعة على العناصر التي تناسب أذواقك واحتياجاتك باستخدام مرشحات البحث المتقدمة والفئات المنظمة جيدًا. بالإضافة إلى ذلك، نقدم مجموعة واسعة من المقاسات لضمان ملاءمة مثالية لكل شكل جسم.",
+        "paragraphetwo":"استفد أيضًا من خدمة التوصيل السريعة والموثوقة لدينا، مما يتيح لك استلام مشترياتك مباشرة إلى باب منزلك في أسرع وقت ممكن. وإذا كانت لديك أي أسئلة أو كنت بحاجة إلى المساعدة، فإن فريق خدمة العملاء لدينا موجود دائمًا لمساعدتك. مع موقعنا للتجارة الإلكترونية، يصبح التسوق عبر الإنترنت تجربة خالية من التوتر، حيث يتم ضمان الجودة والراحة وخدمة العملاء الاستثنائية.",
+        "paragraphethree":"لكن هذا ليس كل شيء. من خلال اختيار منصتنا، فإنك تستفيد أيضًا من العديد من المزايا الحصرية. نحن نقدم بانتظام عروضًا خاصة وعروضًا ترويجية جذابة لمساعدتك على توفير مشترياتك المفضلة. بالإضافة إلى ذلك، يكافئك برنامج الولاء الخاص بنا في كل مرة تقوم فيها بعملية شراء، مما يسمح لك بتجميع النقاط القابلة للاستبدال للحصول على خصومات وهدايا. نحن نفخر أيضًا بالتزامنا بالاستدامة والأخلاق، حيث نقدم مجموعة مختارة من العلامات التجارية الصديقة للبيئة وممارسات التصنيع المسؤولة. باختيارك موقع التجارة الإلكترونية الخاص بنا، فإنك تختار الأزياء الأخلاقية والمستدامة، بينما تستمتع بتجربة تسوق لا تضاهى عبر الإنترنت."
+
+
+
       },
       "feature": {
         "easeOfPurchase": "  سهولة الشراء",
@@ -381,7 +390,11 @@
           "emailPlaceholder": "Entrez votre e-mail",
           "messageLabel": "Message :",
           "messagePlaceholder": "Entrez votre message",
-          "submitButton": "Envoyer"
+          "submitButton": "Envoyer",
+          "paragrapheone":"Plongez dans une expérience de shopping en ligne inégalée avec notre plateforme de e-commerce dédiée à la mode pour toute la famille. Découvrez un univers de possibilités où la mode rencontre la praticité. Parcourez notre vaste catalogue regorgeant des dernières tendances et des classiques intemporels, soigneusement sélectionnés pour répondre à tous les styles et à toutes les occasions. Que vous recherchiez une tenue chic pour une soirée spéciale ou des vêtements décontractés pour un week-end détente, nous avons ce qu il vous faut. Notre site convivial et intuitif vous permet de naviguer en toute simplicité, vous offrant une expérience de shopping en ligne fluide et agréable. Trouvez rapidement les articles qui correspondent à vos goûts et à vos besoins grâce à nos filtres de recherche avancés et à nos catégories bien organisées. De plus, nous proposons une large gamme de tailles pour garantir un ajustement parfait à chaque morphologie.",
+          "paragraphetwo":"Profitez également de notre service de livraison rapide et fiable, vous permettant de recevoir vos achats directement à votre porte dans les plus brefs délais. Et si vous avez des questions ou besoin d assistance, notre équipe de service clientèle est toujours là pour vous aider. Avec notre site de e-commerce, le shopping en ligne devient une expérience sans stress, où la qualité, la commodité et le service clientèle exceptionnel sont au rendez-vous.",
+          "paragraphethree":"Mais ce n est pas tout. En choisissant notre plateforme, vous bénéficiez également de nombreux avantages exclusifs. Nous proposons régulièrement des offres spéciales et des promotions attrayantes pour vous permettre de réaliser des économies sur vos achats préférés. De plus, notre programme de fidélité vous récompense chaque fois que vous effectuez un achat, vous permettant d accumuler des points échangeables contre des réductions et des cadeaux. Nous sommes également fiers de notre engagement envers la durabilité et l éthique, en proposant une sélection de marques respectueuses de l environnement et des pratiques de fabrication responsables. En choisissant notre site de e-commerce, vous faites le choix d une mode éthique et durable, tout en profitant d une expérience de shopping en ligne incomparable."
+
         },
         "feature": {
           "easeOfPurchase": "Facilité d'achat",

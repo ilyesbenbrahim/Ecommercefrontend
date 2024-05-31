@@ -14,7 +14,6 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import axios from "axios";
 import { useState } from "react";
 import Topbar from "../../components/topbare/Topbar";
-import NavBar from "../../components/NavBar";
 import Feature from "../../components/features/Feature";
 
 function Copyright(props) {
@@ -67,7 +66,6 @@ export default function SignUp() {
   return (
     <>
      <Topbar></Topbar>
-        <NavBar></NavBar>
     <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
