@@ -6,6 +6,7 @@ import PromotionalBanner from "./components/PromotionalBannere/PromotionalBanner
 import Feature from "./components/features/Feature";
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n/i18';
+import SectiondePortfol from "./components/home-woman/SectiondePortfol";
 const App = () => {
   return (
     <>
@@ -14,8 +15,11 @@ const App = () => {
         <Topbar></Topbar>
         <NavBar></NavBar>
         <Hero></Hero>
+        <SectiondePortfol></SectiondePortfol>
+
         <Shipping></Shipping>
         <PromotionalBanner></PromotionalBanner>
+
         <Feature></Feature>
       </div>
           </I18nextProvider>

@@ -81,11 +81,6 @@ const router = createBrowserRouter([
     element: <Avantages></Avantages>
   },
 
-
-
-  
- 
-
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
