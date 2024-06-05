@@ -1,22 +1,22 @@
 .pppppppp {
-    margin-top: 80px;
-    display: flex;
-    justify-content: flex-end; /* Aligner le contenu à droite */
-    overflow: hidden; /* Masquer le contenu qui dépasse */
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-end; /* Aligner le contenu à droite */
+  overflow: hidden; /* Masquer le contenu qui dépasse */
+}
 
-  }
-  .imgewoman {
-    --translate: 0, 0;
-    transition: transform 700ms; /* Utilisation de la propriété 'transition' pour définir la transition */
-    width: 670px;
-    height: 500px;
-    /* Supprimez la propriété 'top' */
-    position: relative; /* Assurez-vous que la position est relative pour que 'transform' fonctionne correctement */
-    transform: translate(var(--translate));
-  }
+.imgewoman,
+.imghomme {
+  transition: transform 700ms; /* Utilisation de la propriété 'transition' pour définir la transition */
+  width: 670px;
+  height: 700px;
+  position: relative; /* Assurez-vous que la position est relative pour que 'transform' fonctionne correctement */
+}
 
-  .imghomme{
-    width: 670px;
-    height: 500px;
-  }
-  
+.imgewoman {
+  transform: translateX(var(--translateXFemme, 0)); /* Utilisation de la variable CSS pour la translation */
+}
+
+.imghomme {
+  transform: translateX(var(--translateXHomme, 0)); /* Utilisation de la variable CSS pour la translation */
+}

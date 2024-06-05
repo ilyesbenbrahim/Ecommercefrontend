@@ -1,41 +1,44 @@
 import { useState } from "react";
 import "./SectiondePortfol.css";
 import imgewoman from "../../assets/woman.jpg";
-import imghomme from "../../assets/homme.jpg";
-const SectiondePortfol = () => {
-  // Définir l'état initial de la valeur horizontale de la variable --translate
-  const [translateX, setTranslateX] = useState(0);
+import imghomme from "../../assets/homme.webp";
 
-  // Fonction pour modifier la valeur horizontale de la variable --translate
-  const handleMouseEnter = () => {
-    setTranslateX(100); // Déplacer l'image de 100 pixels vers la droite
+const SectiondePortfol = () => {
+  const [translateXHomme, setTranslateXHomme] = useState(0);
+  const [translateXFemme, setTranslateXFemme] = useState(0);
+
+  const handleMouseEnterHomme = () => {
+    setTranslateXHomme(-100); // Déplacer l'image de 100 pixels vers la gauche
   };
 
-  // Réinitialiser la valeur de translation lorsque la souris quitte l'image
+  const handleMouseEnterFemme = () => {
+    setTranslateXFemme(100); // Déplacer l'image de 100 pixels vers la droite
+  };
+
   const handleMouseLeave = () => {
-    setTranslateX(0); // Réinitialiser la translation
+    setTranslateXHomme(0); // Réinitialiser la translation
+    setTranslateXFemme(0); // Réinitialiser la translation
   };
 
   return (
     <div className="pppppppp">
       <div className="img-container">
-        {/* Appliquer la valeur de translation horizontale en tant que style en utilisant JavaScript */}
-        <img 
-        className="imghomme"
-        src={imghomme}
-        alt="homme"
+        <img
+          className="imghomme"
+          src={imghomme}
+          alt="homme"
+          style={{ transform: `translateX(${translateXHomme}px)` }} // Utiliser transform pour la translation horizontale
+          onMouseEnter={handleMouseEnterHomme}
+          onMouseLeave={handleMouseLeave}
         />
         <img
           className="imgewoman"
           src={imgewoman}
           alt="Femme"
-          style={{ "--translate": `${translateX}px, 0` }} // Ignorer la translation verticale
-          onMouseEnter={handleMouseEnter}
+          style={{ transform: `translateX(${translateXFemme}px)` }} // Utiliser transform pour la translation horizontale
+          onMouseEnter={handleMouseEnterFemme}
           onMouseLeave={handleMouseLeave}
         />
-     
-
-
       </div>
     </div>
   );
